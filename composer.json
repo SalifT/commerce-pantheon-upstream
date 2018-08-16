@@ -22,6 +22,19 @@
             "type": "vcs",
             "url": "https://github.com/drugan/commerce_marketplace"
         },
+        "ommerce_store_gateways": {
+            "type": "package",
+            "package": {
+                "name": "drupal/ommerce_store_gateways",
+                "version": "8.1",
+                "type": "drupal-module",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:bojanz/commerce_store_gateways.git",
+                    "reference": "8.x-1.x"
+                }
+            }
+        },
         "asset-packagist": {
             "type": "composer",
             "url": "https://asset-packagist.org"
@@ -69,6 +82,7 @@
         "drupal/config_installer": "^1.0",
         "drupal/console": "^1",
         "drupal/core": "~8.5",
+        "drupal/ommerce_store_gateways": "~8.0",
         "drupal/search_api": "~1.0",
         "drupal/simple_block": "^1.0@beta",
         "drupal/swiftmailer": "~1.0",
